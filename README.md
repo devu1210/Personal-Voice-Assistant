@@ -1,6 +1,6 @@
 # 🎙️ Personal Voice Assistant
 
-A Python-based Voice Assistant developed as part of the **QSkill Internship - Task 2**. The assistant can understand voice commands, speak responses, fetch live weather information, read the latest news headlines, set reminders, and provide the current date and time.
+A Python-based Personal Voice Assistant that can understand voice commands, speak responses, fetch live weather information, read the latest news headlines, set reminders, and provide the current date and time.
 
 ---
 
@@ -32,7 +32,7 @@ A Python-based Voice Assistant developed as part of the **QSkill Internship - Ta
 
 ## 📂 Project Structure
 
-```
+```text
 Task 2 Voice_Assistant
 │
 ├── assistant.py          # Main Voice Assistant
@@ -44,31 +44,28 @@ Task 2 Voice_Assistant
 ├── config.py             # API Configuration
 ├── .env                  # API Keys
 ├── requirements.txt
-├── README.md
-│
-├── screenshots/
-└── sounds/
+└── README.md
 ```
 
 ---
 
 ## ⚙️ Installation
 
-### Clone Repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/QSkill-Internship.git
+git clone https://github.com/yourusername/your-repository.git
 ```
 
-Navigate to Task 2
+Navigate to the project folder:
 
 ```bash
-cd "Task 2 Voice_Assistant"
+cd "Personal Voice Assistant"
 ```
 
 ---
 
-## Install Dependencies
+## 📦 Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -76,11 +73,11 @@ pip install -r requirements.txt
 
 ---
 
-## API Setup
+## 🔑 API Setup
 
-Create a **.env** file inside the project folder.
+Create a `.env` file inside the project folder.
 
-```
+```env
 WEATHER_API_KEY=your_openweathermap_api_key
 NEWS_API_KEY=your_newsapi_key
 ```
@@ -102,40 +99,41 @@ python assistant.py
 
 ## 🎤 Supported Voice Commands
 
-### Weather
+### 🌤 Weather
 
 - What is the weather today?
 - Tell me the weather.
 - Temperature in Vadodara.
 - Weather forecast.
 
-### News
+### 📰 News
 
 - Tell me today's news.
 - Latest headlines.
 - Current news.
 
-### Reminder
+### ⏰ Reminder
 
 - Set a reminder.
-- Remind me.
+- Remind me to call John.
+- Remind me after 10 seconds.
 
-### Time
+### 🕒 Time
 
 - What time is it?
 - Current time.
 
-### Date
+### 📅 Date
 
 - What's today's date?
 - Tell today's date.
 
-### Help
+### ❓ Help
 
 - Help
 - What can you do?
 
-### Exit
+### 🚪 Exit
 
 - Exit
 - Quit
@@ -143,33 +141,16 @@ python assistant.py
 
 ---
 
-## 📷 Screenshots
-
-Place application screenshots inside the **screenshots/** folder.
-
-Example:
-
-```
-screenshots/
-    assistant.png
-    weather.png
-    news.png
-```
-
----
-
 ## 📦 Requirements
 
-```
-SpeechRecognition
-PyAudio
-pyttsx3
-requests
-python-dotenv
-newsapi-python
-```
+- SpeechRecognition
+- PyAudio
+- pyttsx3
+- requests
+- python-dotenv
+- newsapi-python
 
-Install using
+Install them using:
 
 ```bash
 pip install -r requirements.txt
@@ -185,20 +166,13 @@ pip install -r requirements.txt
 - Email Sending
 - Alarm System
 - Calculator
-- Desktop Application GUI
+- Desktop GUI
 - Offline Speech Recognition
-- GPT Integration
+- Integration with Large Language Models (LLMs)
 
----
-
-## 👨‍💻 Author
-
-**Devendra Upadhyay**
-
-QSkill Internship – Task 2
 
 ---
 
 ## 📄 License
 
-This project is created for educational purposes as part of the **QSkill Internship Program**.
+This project is open-source and intended for learning, experimentation, and educational purposes.
