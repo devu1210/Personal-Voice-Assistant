@@ -1,0 +1,7 @@
+SpeechRecognition
+PyAudio
+pyttsx3
+requests
+python-dotenv
+newsapi-python
+click
